@@ -600,7 +600,7 @@ function WordPasterManager()
             }
         }
         if (needUpdate) this.need_update();
-        else { $.skygqbox.hide(); }
+        //else { $.skygqbox.hide(); }
     };
     this.recvMessage = function (msg)
 	{
